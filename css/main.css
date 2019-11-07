@@ -19,7 +19,7 @@ body {
   position: fixed;
   width: 100%;
   background-color: #2b3851;
-  height: 370px;
+  height: 250px;
 }
 
 .robot {
@@ -31,12 +31,14 @@ body {
 .robot-body {
   position: absolute;
   width: 320px;
+  bottom: 185px;
 }
 
 .robot-brain {
   width: 46px;
   position: absolute;
   left: 136px;
+  bottom: 285px;
 }
 
 .robot-head-right,
@@ -56,14 +58,14 @@ body {
   bottom: 237px;
 }
 
-.robot:hover .robot-head-left{
-  position:absolute;
+.robot:hover .robot-head-left {
+  position: absolute;
   bottom: 275px;
   right: 190px;
 }
 
-.robot:hover .robot-head-right{
-  position:absolute;
+.robot:hover .robot-head-right {
+  position: absolute;
   bottom: 275px;
   left: 190px;
 }
